@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+    padding: 20px;
+}
+.visualization {
+    width: 100%;
+    height: 100%;
+}
+#world-map, #magnitude-histogram, #time-series, #magnitude-depth-scatter {
+    width: 100%;
+    height: 400px;
+}
